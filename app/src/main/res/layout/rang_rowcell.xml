@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorOdg">
+
+    <TextView
+        android:id="@+id/pozicija"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/moguca"
+        android:layout_marginStart="10dp"
+        />
+
+    <TextView
+        android:id="@+id/imeIgraca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/backround"
+        android:layout_toEndOf="@+id/pozicija"
+        android:layout_marginStart="20dp"
+        />
+
+    <TextView
+        android:id="@+id/rezultat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/backround"
+        android:layout_toEndOf="@+id/imeIgraca"
+        android:layout_marginStart="20dp"
+        />
+</RelativeLayout>

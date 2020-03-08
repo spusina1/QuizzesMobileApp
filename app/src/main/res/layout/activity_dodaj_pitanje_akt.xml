@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aktivnosti.DodajKvizAkt">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6" android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/poz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etNaziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/pitanje"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/odgovori"
+            android:layout_below="@+id/etNaziv"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/dodana"/>
+
+        <ba.unsa.etf.rma.NonScrollListView
+            android:id="@+id/lvOdgovori"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/text"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"/>
+
+        <EditText
+            android:id="@+id/etOdgovor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/odgovor"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/lvOdgovori"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnDodajOdgovor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etOdgovor"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/btn"
+            android:background="@drawable/truebtn"
+            android:text="@string/dodaj"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnDodajTacan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnDodajOdgovor"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/dodana"
+            android:background="@drawable/truebtn"
+            android:text="@string/dodajTacan"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnDodajPitanje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnDodajTacan"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/backround"
+            android:background="@drawable/mybutton"
+            android:text="@string/spasiPitanje"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

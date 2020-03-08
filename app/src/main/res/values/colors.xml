@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3E005F</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#340068</color>
+    <color name="pozadina">#9C8AB6</color>
+    <color name="colorAccent2">#FFF5EE</color>
+    <color name="spinner">#41288D</color>
+    <color name="spiner">#5172288D</color>
+    <color name="backround">#FFFFFF</color>
+    <color name="dodana">#007546</color>
+    <color name="moguca">#B91E52</color>
+    <color name="btn">#3366cc</color>
+    <color name="crvena">#FF3030</color>
+    <color name="zelena">#7FF000</color>
+    <color name="poz">#E5D8E9</color>
+    <color name="colorOdg">#55475F</color>
+
+
+</resources>

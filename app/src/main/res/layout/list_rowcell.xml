@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    android:background="@color/pozadina">
+
+    <com.maltaisn.icondialog.IconView
+        android:id="@+id/icon"
+        android:layout_width="25dp"
+        android:layout_height="25dp" />
+
+    <ImageView
+        android:id="@+id/slika"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/discription"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:textSize="15dp"
+        android:textColor="@color/backround"
+        android:layout_toEndOf="@+id/icon"
+        android:layout_marginStart="10dp"
+        />
+</RelativeLayout>

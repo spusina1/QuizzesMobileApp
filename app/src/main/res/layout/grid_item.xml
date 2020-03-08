@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/backround">
+
+    <com.maltaisn.icondialog.IconView
+        android:id="@+id/icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageView
+        android:id="@+id/slika"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="fitXY"
+        android:layout_centerHorizontal="true"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/naziv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/brPitanja"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/naziv"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        />
+</RelativeLayout>

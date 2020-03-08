@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aktivnosti.DodajKvizAkt">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/poz"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/etNaziv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/nazivKategorije"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="text"/>
+
+
+        <EditText
+            android:id="@+id/etIkona"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/ikona"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_below="@+id/etNaziv"
+            android:inputType="text"/>
+
+        <Button
+            android:id="@+id/btnDodajIkonu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etNaziv"
+            android:layout_toEndOf="@+id/etIkona"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/backround"
+            android:background="@drawable/mybutton"
+            android:text="@string/dodajIkonu"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:id="@+id/btnDodajKategoriju"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/etIkona"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:textColor="@color/backround"
+            android:background="@drawable/mybutton"
+            android:text="@string/spasiKategoriju"
+            android:textAllCaps="false"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

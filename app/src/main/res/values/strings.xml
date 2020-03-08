@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">rma19pusinasamra45</string>
+    <string name="spiner">odaberi</string>
+    <string name="poljePretrage">Naziv kviza-INPUT </string>
+    <string name="dodana">Pitanja u kvizu</string>
+    <string name="moguca">Moguca pitanja</string>
+    <string name="dodajKviz">Dodaj Kviz</string>
+    <string name="pitanje">Naziv pitanja - INPUT</string>
+    <string name="odgovor">Odgovor</string>
+    <string name="odgovori">Odgovori</string>
+    <string name="dodaj">Dodaj</string>
+    <string name="dodajTacan">Dodaj tacan</string>
+    <string name="spasiPitanje">Spasi pitanje</string>
+    <string name="nazivKategorije">Naziv Kategorije</string>
+    <string name="ikona">Ikona</string>
+    <string name="dodajIkonu">Dodaj Ikonu</string>
+    <string name="spasiKategoriju">Spasi Kategoriju</string>
+    <string name="importKviz">Importuj Kviz</string>
+    <string name="brojPreostalih">Broj preostalih pitanja</string>
+    <string name="brojTacnih">Broj tacnih pitanja</string>
+    <string name="procenatTacnih">Procenat tacnih</string>
+    <string name="kraj">Kraj</string>
+    <string name="nazivKiviza">Naziv kviza</string>
+    <string name="listaKategorija">Lista kategorija</string>
+    <string name="rangLista">Rang lista:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

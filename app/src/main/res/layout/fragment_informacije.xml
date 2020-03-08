@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/poz"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+
+    <TextView
+        android:id="@+id/labela1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/nazivKiviza"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/infNazivKviza"
+        android:layout_toEndOf="@+id/labela1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/labela2"
+        android:layout_below="@+id/labela1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/brojTacnih"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/infBrojTacnihPitanja"
+        android:layout_toEndOf="@+id/labela2"
+        android:layout_below="@+id/infNazivKviza"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/labela3"
+        android:layout_below="@+id/labela2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/brojPreostalih"
+        android:textColor="@color/colorAccent"/>
+
+    <TextView
+        android:id="@+id/infBrojPreostalihPitanja"
+        android:layout_toEndOf="@+id/labela3"
+        android:layout_below="@+id/infBrojTacnihPitanja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/labela4"
+        android:layout_below="@+id/labela3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/procenatTacnih"
+        android:textColor="@color/moguca"/>
+
+    <TextView
+        android:id="@+id/infProcenatTacnih"
+        android:layout_toEndOf="@+id/labela4"
+        android:layout_below="@+id/infBrojPreostalihPitanja"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/moguca"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/btnKraj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/labela4"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_centerInParent="true"
+        android:textColor="@color/btn"
+        android:background="@drawable/truebtn"
+        android:text="@string/kraj"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>
